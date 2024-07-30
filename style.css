@@ -1,0 +1,78 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+header{
+    background-color:#102C57;
+}
+header span{
+    color: beige;
+}
+.nav-item a{
+    color: beige;
+}
+/*Link visitado*/
+.nav-item a:visited{
+    color: beige;
+
+}
+.nav-item a:hover{
+    color: #1679AB;
+    background-color: beige;    
+}
+#nav-button{
+    background-color: #1679AB;
+}
+.btn-outline-secondary{
+    background-color: #1679AB;
+    border-color: #1679AB;
+    color: beige;
+}
+.btn-outline-secondary :hover{
+
+}
+.foto{
+    margin-top: 0%;
+    width: 150px;
+
+}
+.icon-square .bi{
+    background-color: #102C57;
+    color: beige;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 4px;
+}
+.img-proyecto1{
+    background-image: url('assets/img/pinterest-clon.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.8;
+}
+
+.img-proyecto1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.185);
+    pointer-events: none;
+}
+
+.img-proyecto1 .d-flex.flex-column{
+    position: relative;
+    z-index: 2;
+}
+#habilidades{
+    background-color: #EEEEEE;
+}
+.subtitulo{
+   color: #102C57;
+   font-weight: 600;
+   font-size: 30px;
+}
