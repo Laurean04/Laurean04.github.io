@@ -60,7 +60,7 @@ header span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.185);
+    background: rgba(0,0,0,0.550);
     pointer-events: none;
 }
 
@@ -73,6 +73,20 @@ header span{
 }
 .subtitulo{
    color: #102C57;
-   font-weight: 600;
-   font-size: 30px;
+   
+}
+
+footer{
+   background-color: #102C57;
+}
+footer .icon-footer i{
+    color: beige;
+    font-size: 2rem;
+}
+footer p{
+    color: beige;
+}
+footer a{
+    color: #FFB1B1;
+    text-decoration: none;
 }
